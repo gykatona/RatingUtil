@@ -129,9 +129,13 @@ public class RatingDialogTimer {
             Log.i("CurrentVersion", Arrays.toString(currentVersion));
             Log.i("olderVersion", Arrays.toString(olderVersion));
 
-
             for(int i = 0; i < currentVersion.length; i++){
                 if (Integer.parseInt(currentVersion[i]) > Integer.parseInt(olderVersion[i])){
+                    SharedPreferences pref = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = pref.edit();
+                    editor.putString(KEY_APP_VERSION,context.getPackageManager().getPackageInfo(context.getPackageName(), 0).versionName);
+                    editor.apply();
+
                     return true;
                 }
             }

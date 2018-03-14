@@ -86,6 +86,7 @@ public class FeedbackDialog extends DialogFragment {
                         .subject(getArguments().getString(EXTRA_SUBJECT))
                         .body(mailText.getText().toString())
                         .start();
+                dismiss();
             }
         });
 
