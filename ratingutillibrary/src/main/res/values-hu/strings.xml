@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rating_dialog_feedback">Visszajelzés</string>
+    <string name="rating_dialog_feedback_hint">Kérem írja le a véleményét</string>
+    <string name="rating_dialog_first_message">Milyennek találja az alkalmazást?</string>
+    <string name="rating_dialog_first_button_rate">Értékelje az alkalmazást a Play Store-ban</string>
+    <string name="rating_dialog_first_thanks">Köszönjük az értékelést!</string>
+    <string name="rating_dialog_feedback_message">Megosztaná az értékelését?</string>
+    <string name="rating_email_subject">Visszajelzés</string>
+    <string name="rating_icon_content_description">Ikon</string>
+    <string name="rating_send">Küldés</string>
+</resources>

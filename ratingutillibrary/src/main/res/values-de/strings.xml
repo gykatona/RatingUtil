@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rating_dialog_feedback">Rückmeldung</string>
+    <string name="rating_dialog_feedback_hint">Bitte schreiben Sie Ihren Meinung</string>
+    <string name="rating_dialog_first_message">Wie würden Sie unsere Applikation bewerten?</string>
+    <string name="rating_dialog_first_button_rate">Bewerten Sie unsere Applikation im Play Store</string>
+    <string name="rating_dialog_first_thanks">Vielen Dank für die Bewertung!</string>
+    <string name="rating_dialog_feedback_message">Würden Sie Ihren Rückmeldung teilen?</string>
+    <string name="rating_email_subject">Rückmeldung für ...</string>
+    <string name="rating_icon_content_description">Ikon</string>
+    <string name="rating_send">Schicken</string>
+</resources>

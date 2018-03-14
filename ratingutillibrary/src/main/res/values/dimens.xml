@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rating_default_padding">16dp</dimen>
+    <dimen name="rating_small_padding">8dp</dimen>
+    <dimen name="rating_horizontal_spacing">16dp</dimen>
+    <dimen name="rating_horizontal_spacing_small">4dp</dimen>
+    <dimen name="rating_dialog_title_height">12dp</dimen>
+    <dimen name="rating_text_size">20sp</dimen>
+    <dimen name="rating_icon_size">88dp</dimen>
+    <dimen name="rating_button_title_size">28dp</dimen>
+</resources>

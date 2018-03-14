@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/rating_dialog_title_height" >
+
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="@dimen/rating_button_title_size"
+        android:layout_height="@dimen/rating_button_title_size"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <Button
+        android:id="@+id/buttonShare"
+        android:layout_width="@dimen/rating_button_title_size"
+        android:layout_height="@dimen/rating_button_title_size"
+        android:layout_marginEnd="@dimen/rating_horizontal_spacing"
+        android:layout_marginRight="@dimen/rating_horizontal_spacing"
+        android:layout_toStartOf="@id/buttonClose"
+        android:layout_toLeftOf="@id/buttonClose"
+        android:background="@android:drawable/ic_menu_share" />
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonClose"
+        android:textSize="@dimen/rating_text_size"
+        android:text="@string/rating_dialog_feedback" />
+</RelativeLayout>
